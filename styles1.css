@@ -1,0 +1,38 @@
+
+h1 {color: lightpink;
+    text-align: center;
+    font-family: sans-serif;
+    }
+table {border: 2px solid black;
+       width: 100%;
+       border-collapse: collapse;
+        }
+th, td {border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+
+}
+
+th {background-color: lightpink;
+}
+
+div {padding: 20px;
+     font-size: 20px;
+     white-space: pre-line;
+     font-family: monospace}
+
+#intro {color: blue;}
+#quote {color: green; }
+.name {font-weight: bold;
+       font-family: cursive;
+       text-align: center;
+       color: lightpink;
+       font-size: 36px;}
+ol > li {color: red;
+        font-weight: bold}
+button:hover {background-color: orange;}
+@media print {.screen-only { display: none;}}
+a::before {content: "\1f43e"}
+a::after {content: "\1f43e"}
+div::selection {color: green;
+                background-color: lightpink}
